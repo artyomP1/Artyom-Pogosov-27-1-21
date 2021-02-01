@@ -1,0 +1,10 @@
+// BASICS
+@import "basics/base";
+//COMPONENTS
+@import "components/appHeader";
+@import "components/list";
+@import "components/preview";
+@import "components/citySearch";
+//pages
+@import "pages/Home";
+@import "pages/Favorites";

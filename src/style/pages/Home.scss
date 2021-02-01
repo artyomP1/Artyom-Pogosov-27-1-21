@@ -1,0 +1,56 @@
+.home {
+  margin: 2rem;
+  width: 1400px;
+  max-width: 90%;
+  margin: 0 auto;
+  .search {
+    margin: 2rem 2rem 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    .search-input {
+      width: 350px;
+      max-width: 90%;
+    }
+  }
+  .city {
+    text-transform: uppercase;
+  }
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    img {
+      max-width: 150px;
+    }
+  }
+  .today-forecast {
+    display: flex;
+  }
+  .favorite-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .el-icon-star-on::before {
+      font-size: 1rem;
+      margin-right: 5px;
+      color: gold;
+    }
+    .el-button {
+      width: fit-content;
+      margin-top: 1rem;
+      margin-bottom: 5px;
+    }
+  }
+  @media (max-width: 720px) {
+    .top-container {
+      flex-direction: column-reverse;
+      margin: 0 auto;
+      img {
+        margin-right: 0.5rem;
+      }
+      .today-forecast {
+        margin-top: 1rem;
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.cards-container {
+  padding-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+  flex: 0 1 25%;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 720px) {
+  .cards-container {
+    margin: 0 auto;
+  }
+  .cards-container {
+    flex: 0 1 50%;
+  }
+}

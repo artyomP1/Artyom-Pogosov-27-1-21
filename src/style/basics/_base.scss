@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  --background-color: white;
+  --text-color: black;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+[data-theme="darkMode"] {
+  --background-color: #222c3c;
+  --text-color: white;
+}
+a,
+h1,
+div {
+  color: var(--text-color);
+}
+.el-notification {
+  width: 280px;
+}
+.error-msg {
+  min-width: 250px !important;
+  max-width: 90% !important;
+  width: 300px !important;
+}
+body {
+  font-family: "Lato", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}

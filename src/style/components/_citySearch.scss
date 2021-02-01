@@ -1,0 +1,23 @@
+.search-input {
+  position: relative;
+  .result-container {
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid #dcdfe6;
+    border-bottom: none;
+    z-index: 10;
+    background-color: var(--background-color);
+    width: 100%;
+    p {
+      margin: 0;
+      padding: 0.5rem;
+      border-bottom: 1px solid #dcdfe6;
+      &:hover {
+        background-color: #ff8700bd;
+      }
+    }
+  }
+  .el-input__inner {
+    background-color: var(--background-color);
+  }
+}

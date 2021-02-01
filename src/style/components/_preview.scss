@@ -1,0 +1,42 @@
+.card {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  margin: 0.5rem;
+  min-width: 150px;
+  max-width: 200px;
+  .el-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  .el-switch__core:after {
+    background-color: var(--background-color);
+  }
+  .img {
+    max-width: 100%;
+    width: 100px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    img {
+      max-width: 100%;
+    }
+  }
+  .card-temperture {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  @media (max-width: 720px) {
+    min-width: 200px;
+    max-width: 300px;
+  }
+  @media (max-width: 500px) {
+    min-width: 280px;
+  }
+}
